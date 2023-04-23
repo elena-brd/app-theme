@@ -24,6 +24,31 @@ a {
     text-decoration: none;
 }
 
+.btn {
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 0.7rem 1.5rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: all 0.4s ease-in;
+}
+
+.btn-blue {
+    background: #0fa3b1;
+    color: #fff;
+}
+
+.btn:hover {
+    background: #0fa3b1;
+}
+
+.btn-blue:hover {
+    background: #333;
+    color: #fff;
+}
+
 .primary-text,
 #info i,
 #features i {
@@ -115,4 +140,53 @@ a {
 #contact {
     background: #6c757d;
     color: #fff;
+    padding: 0.8rem 0;
+}
+
+#contact input {
+    padding: 0.7rem;
+}
+
+/* Footer */
+#main-footer {
+    background: #0fa3b1;
+    color: #fff;
+}
+
+/* About page */
+/* about us */
+#about-us {
+    padding: 2rem 0;
+}
+
+/* Services page */
+#offers .blue-bg {
+    background: #0fa3b1;
+    color: #fff;
+}
+
+#offers .dark-bg {
+    background: #333;
+    color: #fff;
+}
+
+/* #offers {
+    margin: 1rem;
+} */
+
+#offers div {
+    padding: 2rem 0;
+}
+
+/* Contact  form*/
+#contact-form .form {
+    background: #333;
+    color: #fff;
+    padding: 5rem;
+    margin: 2rem 0;
+}
+
+#contact-form .form input {
+    padding: 0.5rem 2rem;
+    margin: 1rem;
 }
